@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Shop</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+</head>
+
+<body class="Mode">
+  <header class="header" id="menu">
+    <div class="container">
+      <div class="header-box">
+      <div class="left">
+        <a href="index.html">
+          <img src="assets/images/weblogo.png" class="logo img-fluid" width="120px" alt="">
+        </a>
+      </div>
+      <div class="middle">
+        <!-- Navbart Start -->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+        <ul class="main-menu" id="main-menu">
+          <div class="mobile-menu-head">
+            <div class="left"><h6>Mobile Menu</h6></div>
+            <div class="right"><i id="mobile-menu-close" class="fa fa-times" aria-hidden="true"></i></div>
+          </div>
+          <li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item has-child"> <a class="nav-link" href="#">Dropdown
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </a>
+            <div class="sub-menu menu-drop-down">
+              <ul>
+                <li><a href="#">Dropdown Menu 1</a></li>
+                <li><a href="#">Dropdown Menu 2</a></li>
+                <li><a href="#">Dropdown Menu 3</a></li>
+                <li><a href="#">Dropdown Menu 4</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item has-child">
+            <a class="nav-link" href="#">Mega Menu<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <div class="sub-menu mega-menu show_mega">
+                <div class="mega-item">
+                  <h3>Listing grid</h3>
+                  <ul>
+                    <li><a href="#">Grid Full Width</a></li>
+                    <li><a href="#">Grid Full Width 2</a></li>
+                    <li><a href="#">Grid Boxed</a></li>
+                    <li><a href="#">Grid Sidebar Left</a></li>
+                    <li><a href="#">Grid Sidebar Right</a></li>
+                    <li><a href="#">Grid Sidebar Left 2</a></li>
+                    <li><a href="#">Grid Sidebar Right 2</a></li>
+                  </ul>
+                </div>
+                <div class="mega-item">
+                  <h3>Listing row &amp; Product</h3>
+                  <ul>
+                    <li><a href="#">Row Sidebar Left</a></li>
+                    <li><a href="#">Row Sidebar Right</a></li>
+                    <li><a href="#">Row Sidebar Left 2</a></li>
+                    <li><a href="#">Row Sidebar Extended</a></li>
+                    <li><a href="#">Product Large Image</a></li>
+                    <li><a href="#">Product Carousel</a></li>
+                    <li><a href="#">Product Sticky Info</a></li>
+                  </ul>
+                </div>
+                <div class="mega-item">
+                  <h3>Other pages</h3>
+                  <ul>
+                    <li><a href="#">Cart Page</a></li>
+                    <li><a href="#">Check Out Page</a></li>
+                    <li><a href="#">Confirm Purchase Page</a></li>
+                    <li><a href="#">Create Account Page</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Help Page</a></li>
+                    <li><a href="#">Help Page 2</a></li>
+                    <li><a href="#">Leave a Review</a></li>
+                  </ul>
+                </div>
+                <div class="mega-item">
+                  <div class="banner_menu">
+                    <a href="#0">
+                      <img src="assets/images/banner.jpg" data-src="img/banner_menu.jpg" width="400" height="550"
+                        alt="" class="img-fluid lazy loaded" data-was-processed="true">
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="shop.html">Shop</a></li>
+          <li class="nav-item"> <a class="nav-link" href="account.html">account</a></li>
+          <li class="nav-item"> <a class="nav-link" href="cart.html">cart</a></li>
+        </ul>
+        <!-- Navbart End -->
+
+      </div>
+      <div class="right">
+        <ul class="icon-list">
+          <li class="icon user">
+            <i class="fa fa-user-circle-o me-3" aria-hidden="true"></i>
+          </li>
+          <li class="icon wishlist">
+            <i class="fa fa-heart-o me-3" aria-hidden="true"></i>
+          </li>
+          <li class="icon cart">
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            <span class="cart-count">12</span>
+            <div class="c-dropdown-menu">
+              <ul>
+                <li class="d-flex">
+                  <a href="#">
+                    <figure><img src="assets/images/products/pic_001.png" alt="" width="50" height="50" ></figure>
+                    <strong><span>1x Armor Air x Fear</span>$90.00</strong>
+                  </a>
+                  <a href="#0" class="action"><i class="ti-trash"></i></a>
+                </li>
+                <li class="d-flex">
+                  <a href="#">
+                    <figure><img src="assets/images/products/pic_001.png" alt="" width="50" height="50"></figure>
+                    <strong><span>1x Armor Air x Fear</span>$90.00</strong>
+                  </a>
+                  <a href="#0" class="action"><i class="ti-trash"></i></a>
+                </li>
+              </ul>
+              <div class="total">
+                <div class="price">
+                  <strong>Total</strong><span>$200.00</span>
+                </div>
+                <div class="btn-box d-flex justify-content-between">
+                  <a href="cart.html" class="c-btn outline">View Cart</a>
+                  <a href="checkout.html" class="c-btn">Checkout</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="icon mobile-menu-icon" id="mobile-menu-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+
+  <!-- Product Details start -->
+  <div class="section-margin">
+    <div class="container">
+    <div class="product-details-top">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="gallery">
+             <div class="swiper product-image-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper thumbSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="product-details">
+            <div class="product-head">
+              <p class="product-title">A80 Pro 4G Unlocked Cell Phones</p>
+              <div class="review d-flex">
+                <div class="icon-set">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <!-- <p class="review-count">1 Review</p> -->
+                <a href="#" class="read-review" id="read-comment"><span class="ml-2"><i class="fa fa-comment-dots"></i></span>
+                  Read reviews <span>(1)</span></a>
+                  <a href="#" class="write-review" data-toggle="modal" data-target="#exampleModalCenter"><span class="edite"><i class="far fa-edit"></i></span> Write a review</a>
+                <!-- <p class="add-review">Add Your Review</p> -->
+              </div>
+            </div>
+
+            <div class="price d-flex align-items-center mb-30">
+              <h6 class="product-price mr-20"><del class="del">$23.90</del>
+                  <span class="onsale">$21.51</span></h6>
+              <span class="badge position-static bg-dark rounded-0">Save 10%</span>
+           </div>
+
+            <p class="aval">Availability: <span>In stock</span></p>
+            <p class="sku">SKU: <span>Digital006</span></p>
+            <p class="short-description">Typi non habent claritatem insitam est usus legentis in qui facit
+              orum claritatem lectores legere me lius quod legunt saepius. Sit amet conse ctetur
+              adipisicing elit sed do eiusmod tempor.</p>
+            <div class="add-to-cart d-flex align-items-center mb-1">
+              <div class="qty-box">
+                <i class="fa fa-minus" aria-hidden="true"></i>
+                <input type="number" name="qty" id="qty" maxlength="12" value="1" title="Quantity" class="input-text qty">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </div>
+              <button>Add to Cart</button>
+            </div>
+            <div class="add-wishlist">
+              <a href="#"><i class="icon-heart"></i> Add to wishlist</a>
+            </div>
+            <div class="product-cat d-flex align-items-center mb-2">
+              <p class="me-2">Categories:</p>
+              <span>Electronics</span>
+              <span>TV</span>
+            </div>
+            <div class="product-brand d-flex align-items-center mb-2">
+              <p class="me-2">Brands:</p>
+              <span>Samsung</span>
+              <span>LG</span>
+            </div>
+            <div class="share d-flex">
+              <p class="me-2">Share: </p>
+              <div class="fb"><i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</div>
+              <div class="inst"><i class="fa fa-instagram" aria-hidden="true">  Instagram</i></div>
+              <div class="twtr"><i class="fa fa-twitter" aria-hidden="true">  Twitter</i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product-details-bottom mt-4">
+      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="tab-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Details </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="tab-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Additional Information
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="tab-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Reviews <span
+              class="counter">(3)</span></button>
+
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          .Details..</div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...
+        </div>
+      </div>
+    </div>
+    <!-- Related Product start -->
+    <div class="related-product mt-4">
+      <div class="section-heading d-flex justify-content-between">
+        <h2>Related Products</h2>
+      </div>
+      <div class="section-body sec-body-mar">
+        <div class="row g-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="product-container">
+              <div class="pro-badge">
+                <p>-20%</p>
+              </div>
+              <a href="#" class="product-img">
+                <img src="assets/images/products/pic_015.png"  alt="...">
+              </a>
+              <div class="product-body">
+                <a href="#">
+                  <p class="product-title">Men hand watch latest design fashion</p>
+                </a>
+                <div class="rating">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <span>(0)</span>
+                </div>
+                <div class="price">
+                  <p>200$</p>
+                  <p class="old">200$</p>
+                </div>
+                <div class="add-cart d-flex justify-content-center align-items-center">
+                  <button class="">add to cart</button>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="product-container">
+              <div class="pro-badge">
+                <p>-20%</p>
+              </div>
+              <a href="#" class="product-img">
+                <img src="assets/images/products/pic_018.png"  alt="...">
+              </a>
+              <div class="product-body">
+                <a href="#">
+                  <p class="product-title">Men hand watch latest design fashion</p>
+                </a>
+                <div class="rating">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <span>(0)</span>
+                </div>
+                <div class="price">
+                  <p>200$</p>
+                  <p class="old">200$</p>
+                </div>
+                <div class="add-cart d-flex justify-content-center align-items-center">
+                  <button class="">add to cart</button>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="product-container">
+              <div class="pro-badge">
+                <p>-20%</p>
+              </div>
+              <a href="#" class="product-img">
+                <img src="assets/images/products/pic_003.png"  alt="...">
+              </a>
+              <div class="product-body">
+                <a href="#">
+                  <p class="product-title">Men hand watch latest design fashion</p>
+                </a>
+                <div class="rating">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <span>(0)</span>
+                </div>
+                <div class="price">
+                  <p>200$</p>
+                  <p class="old">200$</p>
+                </div>
+                <div class="add-cart d-flex justify-content-center align-items-center">
+                  <button class="">add to cart</button>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="product-container">
+              <div class="pro-badge">
+                <p>-20%</p>
+              </div>
+              <a href="#" class="product-img">
+                <img src="assets/images/products/pic_016.png"  alt="...">
+              </a>
+              <div class="product-body">
+                <a href="#">
+                  <p class="product-title">Men hand watch latest design fashion</p>
+                </a>
+                <div class="rating">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <span>(0)</span>
+                </div>
+                <div class="price">
+                  <p>200$</p>
+                  <p class="old">200$</p>
+                </div>
+                <div class="add-cart d-flex justify-content-center align-items-center">
+                  <button class="">add to cart</button>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related product end -->
+  </div>
+  </div>
+
+  <!-- Product Details End -->
+
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+
+
+  <script>
+
+    var swiper = new Swiper(".thumbSwiper", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".product-image-swiper", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+  </script>
+</body>
+
+</html>

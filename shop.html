@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Shop</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+</head>
+
+<body class="Mode">
+  <header class="header" id="menu">
+    <div class="container">
+      <div class="header-box">
+      <div class="left">
+        <a href="index.html">
+          <img src="assets/images/weblogo.png" class="logo img-fluid" width="120px" alt="">
+        </a>
+      </div>
+      <div class="middle">
+        <!-- Navbart Start -->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+        <ul class="main-menu" id="main-menu">
+          <div class="mobile-menu-head">
+            <div class="left"><h6>Mobile Menu</h6></div>
+            <div class="right"><i id="mobile-menu-close" class="fa fa-times" aria-hidden="true"></i></div>
+          </div>
+          <li class="nav-item"> <a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item has-child"> <a class="nav-link" href="#">Dropdown
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </a>
+            <div class="sub-menu menu-drop-down">
+              <ul>
+                <li><a href="#">Dropdown Menu 1</a></li>
+                <li><a href="#">Dropdown Menu 2</a></li>
+                <li><a href="#">Dropdown Menu 3</a></li>
+                <li><a href="#">Dropdown Menu 4</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item has-child">
+            <a class="nav-link" href="#">Mega Menu<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <div class="sub-menu mega-menu show_mega">
+                <div class="mega-item">
+                  <h3>Listing grid</h3>
+                  <ul>
+                    <li><a href="#">Grid Full Width</a></li>
+                    <li><a href="#">Grid Full Width 2</a></li>
+                    <li><a href="#">Grid Boxed</a></li>
+                    <li><a href="#">Grid Sidebar Left</a></li>
+                    <li><a href="#">Grid Sidebar Right</a></li>
+                    <li><a href="#">Grid Sidebar Left 2</a></li>
+                    <li><a href="#">Grid Sidebar Right 2</a></li>
+                  </ul>
+                </div>
+                <div class="mega-item">
+                  <h3>Listing row &amp; Product</h3>
+                  <ul>
+                    <li><a href="#">Row Sidebar Left</a></li>
+                    <li><a href="#">Row Sidebar Right</a></li>
+                    <li><a href="#">Row Sidebar Left 2</a></li>
+                    <li><a href="#">Row Sidebar Extended</a></li>
+                    <li><a href="#">Product Large Image</a></li>
+                    <li><a href="#">Product Carousel</a></li>
+                    <li><a href="#">Product Sticky Info</a></li>
+                  </ul>
+                </div>
+                <div class="mega-item">
+                  <h3>Other pages</h3>
+                  <ul>
+                    <li><a href="#">Cart Page</a></li>
+                    <li><a href="#">Check Out Page</a></li>
+                    <li><a href="#">Confirm Purchase Page</a></li>
+                    <li><a href="#">Create Account Page</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Help Page</a></li>
+                    <li><a href="#">Help Page 2</a></li>
+                    <li><a href="#">Leave a Review</a></li>
+                  </ul>
+                </div>
+                <div class="mega-item">
+                  <div class="banner_menu">
+                    <a href="#0">
+                      <img src="assets/images/banner.jpg" data-src="img/banner_menu.jpg" width="400" height="550"
+                        alt="" class="img-fluid lazy loaded" data-was-processed="true">
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link active" href="shop.html">Shop</a></li>
+          <li class="nav-item"> <a class="nav-link" href="account.html">account</a></li>
+          <li class="nav-item"> <a class="nav-link" href="cart.html">cart</a></li>
+        </ul>
+        <!-- Navbart End -->
+
+      </div>
+      <div class="right">
+        <ul class="icon-list">
+          <li class="icon user">
+            <i class="fa fa-user-circle-o me-3" aria-hidden="true"></i>
+          </li>
+          <li class="icon wishlist">
+            <i class="fa fa-heart-o me-3" aria-hidden="true"></i>
+          </li>
+          <li class="icon cart">
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            <span class="cart-count">12</span>
+            <div class="c-dropdown-menu">
+              <ul>
+                <li class="d-flex">
+                  <a href="#">
+                    <figure><img src="assets/images/products/pic_001.png" alt="" width="50" height="50" ></figure>
+                    <strong><span>1x Armor Air x Fear</span>$90.00</strong>
+                  </a>
+                  <a href="#0" class="action"><i class="ti-trash"></i></a>
+                </li>
+                <li class="d-flex">
+                  <a href="#">
+                    <figure><img src="assets/images/products/pic_001.png" alt="" width="50" height="50"></figure>
+                    <strong><span>1x Armor Air x Fear</span>$90.00</strong>
+                  </a>
+                  <a href="#0" class="action"><i class="ti-trash"></i></a>
+                </li>
+              </ul>
+              <div class="total">
+                <div class="price">
+                  <strong>Total</strong><span>$200.00</span>
+                </div>
+                <div class="btn-box d-flex justify-content-between">
+                  <a href="cart.html" class="c-btn outline">View Cart</a>
+                  <a href="checkout.html" class="c-btn">Checkout</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="icon mobile-menu-icon" id="mobile-menu-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+  <section class="shop section-margin">
+    <div class="container">
+      <div class="row shop-product">
+        <div class="col-lg-3 col-md-4 filter">
+          <div class="widget-wrapper">
+            <div class="widget">
+              <div class="search d-flex">
+                <input type="text" class="form-control" placeholder="Search">
+                <button class="btn btn-primary ms-2">Search</button>
+              </div>
+            </div>
+              <div class="widget">
+                <p class="title">
+                  Categories
+                </p>
+                <ul class="filter-content">
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Men</span>
+                    </label>
+                    <small>12</small>
+                  </li>
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Women</span>
+                    </label>
+                    <small>12</small>
+                  </li>
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Runner</span>
+                    </label>
+                    <small>12</small>
+                  </li>
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Watch</span>
+                    </label>
+                    <small>11</small>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="widget">
+                <p class="title">
+                  Tags
+                </p>
+                <ul class="filter-content">
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Men</span>
+                    </label>
+                    <small>12</small>
+                  </li>
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Women</span>
+                    </label>
+                    <small>12</small>
+                  </li>
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Runner</span>
+                    </label>
+                    <small>12</small>
+                  </li>
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Watch</span>
+                    </label>
+                    <small>11</small>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="widget">
+                <p class="title">
+                  Brand
+                </p>
+                <ul class="filter-content">
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Men</span>
+                    </label>
+                    <small>12</small>
+                  </li>
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Women</span>
+                    </label>
+                    <small>12</small>
+                  </li>
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Runner</span>
+                    </label>
+                    <small>12</small>
+                  </li>
+                  <li class="filter-item">
+                    <label>
+                      <input class="filter-check" type="checkbox">
+                      <span>Watch</span>
+                    </label>
+                    <small>11</small>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-8">
+          <div class="tool-bar mb-2">
+            <div class="left">
+                <i class="fa fa-tasks" aria-hidden="true"></i>
+                <i class="fa fa-th-large" aria-hidden="true"></i>
+                <p>Items 1-12 of 18 showing</p>
+            </div>
+            <div class="right">
+              <div class="sort">
+                <span>Sort by:</span>
+                <select id="sort">
+                  <option value="" selected="selected">Default</option>
+                  <option value="">Name (A - Z)</option>
+                  <option value="">Name (Z - A)</option>
+                  <option value="">Price (Low &gt; High)</option>
+                  <option value="">Price (High &gt; Low)</option>
+                  <option value="">Rating (Highest)</option>
+                  <option value="">Rating (Lowest)</option>
+                  <option value="">Model (A - Z)</option>
+                  <option value="">Model (Z - A)</option>
+                </select>
+              </div>
+              <div class="show">
+                <span>Show:</span>
+                <select id="show">
+                  <option value="" selected="selected">Default</option>
+                  <option value="">10</option>
+                  <option value="">20</option>
+                  <option value="">30</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <!----------Product List start -->
+          <div class="row g-2">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+              <div class="product-container">
+                <div class="pro-badge">
+                  <p>-20%</p>
+                </div>
+                <a href="#" class="product-img">
+                  <img src="assets/images/products/pic_001.png"  alt="...">
+                </a>
+                <div class="product-body">
+                  <a href="#">
+                    <p class="product-title">Men hand watch latest design fashion</p>
+                  </a>
+                  <div class="rating">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span>(0)</span>
+                  </div>
+                  <div class="price">
+                    <p>200$</p>
+                    <p class="old">200$</p>
+                  </div>
+                  <div class="add-cart d-flex justify-content-center align-items-center">
+                    <button class="">add to cart</button>
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+              <div class="product-container">
+                <div class="pro-badge">
+                  <p>-20%</p>
+                </div>
+                <a href="#" class="product-img">
+                  <img src="assets/images/products/pic_010.png"  alt="...">
+                </a>
+                <div class="product-body">
+                  <a href="#">
+                    <p class="product-title">Men hand watch latest design fashion</p>
+                  </a>
+                  <div class="rating">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span>(0)</span>
+                  </div>
+                  <div class="price">
+                    <p>200$</p>
+                    <p class="old">200$</p>
+                  </div>
+                  <div class="add-cart d-flex justify-content-center align-items-center">
+                    <button class="">add to cart</button>
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+              <div class="product-container">
+                <div class="pro-badge">
+                  <p>-20%</p>
+                </div>
+                <a href="#" class="product-img">
+                  <img src="assets/images/products/pic_015.png"  alt="...">
+                </a>
+                <div class="product-body">
+                  <a href="#">
+                    <p class="product-title">Men hand watch latest design fashion</p>
+                  </a>
+                  <div class="rating">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span>(0)</span>
+                  </div>
+                  <div class="price">
+                    <p>200$</p>
+                    <p class="old">200$</p>
+                  </div>
+                  <div class="add-cart d-flex justify-content-center align-items-center">
+                    <button class="">add to cart</button>
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+              <div class="product-container">
+                <div class="pro-badge">
+                  <p>-20%</p>
+                </div>
+                <a href="#" class="product-img">
+                  <img src="assets/images/products/pic_018.png"  alt="...">
+                </a>
+                <div class="product-body">
+                  <a href="#">
+                    <p class="product-title">Men hand watch latest design fashion</p>
+                  </a>
+                  <div class="rating">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span>(0)</span>
+                  </div>
+                  <div class="price">
+                    <p>200$</p>
+                    <p class="old">200$</p>
+                  </div>
+                  <div class="add-cart d-flex justify-content-center align-items-center">
+                    <button class="">add to cart</button>
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+              <div class="product-container">
+                <div class="pro-badge">
+                  <p>-20%</p>
+                </div>
+                <a href="#" class="product-img">
+                  <img src="assets/images/products/pic_019.png"  alt="...">
+                </a>
+                <div class="product-body">
+                  <a href="#">
+                    <p class="product-title">Men hand watch latest design fashion</p>
+                  </a>
+                  <div class="rating">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span>(0)</span>
+                  </div>
+                  <div class="price">
+                    <p>200$</p>
+                    <p class="old">200$</p>
+                  </div>
+                  <div class="add-cart d-flex justify-content-center align-items-center">
+                    <button class="">add to cart</button>
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+              <div class="product-container">
+                <div class="pro-badge">
+                  <p>-20%</p>
+                </div>
+                <a href="#" class="product-img">
+                  <img src="assets/images/products/pic_003.png"  alt="...">
+                </a>
+                <div class="product-body">
+                  <a href="#">
+                    <p class="product-title">Men hand watch latest design fashion</p>
+                  </a>
+                  <div class="rating">
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span>(0)</span>
+                  </div>
+                  <div class="price">
+                    <p>200$</p>
+                    <p class="old">200$</p>
+                  </div>
+                  <div class="add-cart d-flex justify-content-center align-items-center">
+                    <button class="">add to cart</button>
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="pagination-box">
+                <ul class="pagination" id="pagination">
+                </ul>
+              </div>
+          </div>
+          <!----------Product List end -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer Section Section Start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-4">
+          <div class="heading">
+            <p>About The Store</p>
+          </div>
+          <div class="shop-details">
+            <p>Our mission statement is to provide the absolute best
+              customer experience available in the Electronic industry
+              without exception.</p>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4">
+          <div class="heading">
+            <p>Quick Links</p>
+          </div>
+          <div class="footer-link">
+            <ul class="footer-contents">
+              <li><a href="#">Store Location</a></li>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Orders Tracking</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-4">
+          <div class="heading">
+            <p>Quick Links</p>
+          </div>
+          <ul class="footer-contents">
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">Shopping Cart</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Custom Link</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 col-sm-4">
+          <div class="heading">
+            <p>Customer Service</p>
+          </div>
+          <ul class="footer-contents">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Report Abuse</a></li>
+            <li><a href="#">Policies &amp; Rules</a></li>
+            <li><a href="#">Online Returns Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 col-sm-4">
+          <div class="heading">
+            <p>Categories</p>
+          </div>
+          <ul class="footer-contents">
+            <li><a href="">Clothes</a></li>
+            <li><a href="">Electronics</a></li>
+            <li><a href="">Furniture</a></li>
+            <li><a href="">Glasses</a></li>
+            <li><a href="">Watches</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Footer Section Section End -->
+
+  <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
